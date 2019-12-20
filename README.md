@@ -22,8 +22,6 @@ REACT_APP_FIREBASE_MESSAGING_SENDER_ID=000000000000
 
 The boilerplate uses antd for the UI: https://ant.design/docs/react/introduce
 
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
