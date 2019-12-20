@@ -1,3 +1,29 @@
+This project provides a boilerplate to start working with React and Firebase.
+
+To start using it, all you need to do is generate a Firebase project and include the environment files 
+in the root of the project, it supports there environments: development, stage and production. It should look like this:
+```
+react-boilerpalte
+|__ .env.development
+|__ .env.production
+|__ .env.stage
+```
+
+To have three different environments you will need to create three different projects in Firebase.
+The content of the environment files should be like this:
+```
+REACT_APP_FIREBASE_API_KEY=AIzaSyAPcej8I0Qyyadq99XXXXXXXXXXXXXXX
+REACT_APP_FIREBASE_AUTH_DOMAIN=XXXXXXXXXXXX.firebaseapp.com
+REACT_APP_FIREBASE_DATABASE_URL=https://XXXXXXXXXXXX.firebaseio.com
+REACT_APP_FIREBASE_PROJECT_ID=XXXXXXXXXXXX
+REACT_APP_FIREBASE_STORAGE_BUCKET=XXXXXXXXXXXX.appspot.com
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=000000000000
+```
+
+The boilerplate uses antd for the UI: https://ant.design/docs/react/introduce
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
